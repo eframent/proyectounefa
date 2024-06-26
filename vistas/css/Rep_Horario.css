@@ -1,0 +1,154 @@
+div#legendobligatorio{
+	display: none !important;
+}
+
+div[formulario]{
+	margin-top: 10px;
+}
+
+.ordenar{
+	clear: both;
+	width: 100%;
+	height: 0px;
+}
+
+fieldset[cont-busqueda]{
+	width: 300px;
+	height: auto;
+	border: 1px solid silver;
+	margin-left: 10px;
+	margin-top: 5px;
+	padding: 0px;
+}
+
+legend{
+	font-size: 16px;
+}
+.abrir{
+	float: right;
+	width: auto;
+	border:1px solid grey;
+	margin: 5px 10px;
+	padding: 10px;
+	background: #29388C;
+	cursor: pointer;
+}
+
+.usuario{
+	padding: 8px 10px 9px 10px;
+}
+
+#aula, #docente, #seccion{
+	width: 99%;
+	margin: 5px auto;
+	padding: 0px;
+}
+
+#aula input, #docente input, #seccion input{
+	border-radius: 0px;
+	border-left: none !important;
+	width: 150px;
+}
+
+#aula input:first-child, #docente input:first-child, #seccion input:first-child{
+	border-left: 2px solid #BDC3C7 !important;
+	margin-left: 5px;
+}
+
+input[name="busqueda"]{
+	margin: 5px 0px 5px 0px;
+}
+
+label[lupa]{
+	background: #3498DB;
+	padding: 5px 5px 7px 5px;
+	border: 2px solid #BDC3C7;
+	border-left: none;
+	cursor: pointer;
+}
+
+.icon-search{
+	margin-left: 3px;
+	margin-top: 3px !important;
+	cursor: pointer;
+}
+
+i.icon-search:hover{
+	background-image : url('../img/opa-icons-white16.png') !important;
+}
+
+#resultado{
+	width: 99%;
+	height: 0px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+div[resultadoBusqueda], div[resultadoBusquedaseccion]{
+	margin-top: 10px;
+	width: 85px;
+	height: 85px;
+	border: 1px solid silver;
+	padding: 5px;
+	margin-left: 10px;
+	float: left;
+	cursor: pointer;
+	font-size: 12px;
+	text-align: center;
+	background: #34495e;
+	color: white;
+}
+
+div[resultadoBusquedaseccion]{
+	margin-top: 10px;
+	width: 125px;
+	height: 125px;
+}
+
+div[superior]{
+	height: 43px;
+	margin-top: 10px;
+}
+
+
+div[resultadoBusquedaseccion] div[superior]{
+	margin-top: 10px;
+	height: 70px;
+}
+
+div[tooltip]{
+	position: absolute;
+	background: inherit;
+	margin: -30px 0px 0px 8px;
+	width: 1px;
+	overflow: hidden;
+	transition:all 0.5s;
+	height: 0px;
+	border-radius: 3px 3px 3px 0px;
+	color: white;
+	text-align: center;
+}
+
+div.abrir:hover>div[tooltip]{
+	width: 70px;
+	margin: -70px 0px 0px 30px;
+	height: 20px;
+	padding: 3px;
+}
+/* control de creacio y cierre de horarios */
+div#tituloHorario{
+	width: 100%;
+	height: 25px !important;
+	color:black;
+}
+div#tituloHorario i#botonCerrarHorario{
+	transition: all 1s;
+	float: right;
+	width: 16px !important;
+	height: 16px;
+	border: 1px solid #C0C0C0;
+	padding: 0px !important;
+	margin: -12px -3px !important;
+	transform: scale(1.4);
+}

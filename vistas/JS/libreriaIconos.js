@@ -1,0 +1,15 @@
+var Clases=new Array('icon-triangle-n','icon-triangle-ne','icon-triangle-e','icon-triangle-se','icon-triangle-s','icon-triangle-sw','icon-triangle-w','icon-triangle-nw','icon-triangle-ns','icon-triangle-ew','icon-arrowstop-n','icon-arrowstop-e','icon-arrowstop-s','icon-arrowstop-w','icon-transfer-ew','icon-shuffle','icon-carat-1-n','icon-carat-1-ne','icon-carat-1-e','icon-carat-1-se','icon-carat-1-s','icon-carat-1-sw','icon-carat-1-w','icon-carat-1-nw','icon-carat-2-ns','icon-carat-2-ew','icon-plus','icon-minus','icon-close','icon-check','icon-help','icon-notice','icon-arrow-n','icon-arrow-ne','icon-arrow-e','icon-arrow-se','icon-arrow-s','icon-arrow-sw','icon-arrow-w','icon-arrow-nw','icon-arrow-n-s','icon-arrow-ne-sw','icon-arrow-e-w','icon-arrow-se-nw','icon-arrow-nesw','icon-arrow-4diag','icon-newwin','icon-extlink','icon-arrowthick-n','icon-arrowthick-ne','icon-arrowthick-e','icon-arrowthick-se','icon-arrowthick-s','icon-arrowthick-sw','icon-arrowthick-w','icon-arrowthick-nw','icon-undo','icon-redo','icon-replyall','icon-refresh','icon-bullet-on','icon-bullet-off','icon-star-on','icon-star-off','icon-arrowreturn-se','icon-arrowreturn-se','icon-arrowreturn-sw','icon-arrowreturn-ne','icon-arrowreturn-nw','icon-arrowreturn-ws','icon-arrowreturn-es','icon-arrowreturn-wn','icon-arrowreturn-en','icon-arrowrefresh-w','icon-arrowrefresh-n','icon-arrowrefresh-e','icon-arrowrefresh-s','icon-search','icon-zoomin','icon-zoomout','icon-rssfeed','icon-home','icon-user','icon-print','icon-save','icon-book','icon-book-empty','icon-folder-collapsed','icon-folder-open','icon-flag','icon-bookmark','icon-heart','icon-cancel','icon-trash','icon-pin','icon-tag','icon-lightbulb','icon-gear','icon-wrench','icon-locked','icon-unlocked','icon-key','icon-clipboard','icon-scissors','icon-edit','icon-page','icon-copy','icon-note','icon-pdf','icon-doc','icon-xls','icon-document','icon-script','icon-date','icon-calendar','icon-clock','icon-envelope-closed','icon-envelope-open','icon-mail-closed','icon-mail-open','icon-link','icon-unlink','icon-web','icon-globe','icon-contacts','icon-profile','icon-image','icon-suitcase','icon-briefcase','icon-cross','icon-add','icon-remove','icon-info','icon-alert','icon-comment-text','icon-comment-video','icon-comment','icon-cart','icon-basket','icon-messages','icon-users','icon-video','icon-audio','icon-volume-off','icon-volume-on','icon-compose','icon-inbox','icon-archive','icon-reply','icon-sent','icon-attachment','icon-square-plus','icon-square-minus','icon-treeview-corner-plus','icon-treeview-corner-minus','icon-aula');
+
+function boton(){
+	var contenido=abrirCapas();
+	var cadena="";
+	for(var x=0;x<Clases.length;x++){
+		cadena+="<aside class='muestra' title='icon icon-white "+Clases[x]+"' onclick='utilizar(this)'><i class='icon32 icon-blue "+Clases[x]+"'></i></aside>";
+	}
+	contenido.innerHTML="<h2>Seleccione el ícono a utilizar</h2><br>"+cadena;
+}
+function utilizar(element){
+	var form=document.forms[0];
+	form.Clases_Icono.value=element.title;
+	cerrarCapas();
+}

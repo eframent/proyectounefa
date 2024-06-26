@@ -1,0 +1,38 @@
+		.Error, .Info, .Alerta{	
+			padding: 15px;
+			font-family:arial;
+			font-weight: bold;
+			letter-spacing: 2px;
+			word-spacing: 7px;			
+			max-width: 1200px;
+			width: 300px;
+			text-align: center;
+			margin:5% 40%;
+			box-shadow: 3px 3px 5px black;
+			border-radius: 5px;
+			text-shadow:1px 1px 0px black;
+		}
+
+		.Error{
+			background-color: #e74c3c;
+			color: white;
+			border:1px solid #c0392b;
+			position: fixed;
+
+		}
+
+		.Info{
+			background: #2ecc71;
+			color:white;
+			border:1px solid #2ecc71;
+			position: fixed;
+
+		}
+		.Alerta{
+			background-color: #f1c40f;
+			color: #ecf0f1;
+			border:1px solid #f1c40f;
+			position: fixed;
+
+
+		}

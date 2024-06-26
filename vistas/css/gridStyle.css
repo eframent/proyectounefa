@@ -1,0 +1,321 @@
+div#legendObligatorio{
+	display: none;
+}
+
+table label{
+	margin-right: 0px;
+}
+
+div[botonera]{
+	width: 100% !important;
+	background: none !important;
+}
+
+div[cont-listados],div[cont-configuracion]{
+	float: right !important;
+	margin:5px;
+	min-height: 200px;
+	height: auto;
+}
+
+div[cont-listados]{
+	width: 60%;
+}
+
+div[list-bitacora], div[list-bita-acceso]{
+	background: white;
+	height: auto;
+	min-height: 300px;
+	margin-bottom: 10px;
+}
+
+div[cont-configuracion]{
+	width: 37%;
+}
+
+div[configuracion],div[usu-bloq],div[usu-online]{
+	width: 100%;
+	margin-bottom: 10px;
+	background: silver;
+	height: auto;
+	min-height: 150px;
+	padding-bottom: 1px;
+}
+
+div[configuracion]{
+	background: white;
+}
+
+div[ordenar]{
+	width: 100%;
+	height: 0px;
+	clear: both;
+}
+
+h2{
+	margin-bottom: 2px;
+}
+
+section[cab-list]{
+	background: silver;
+	height: auto;
+}
+
+div#listBitAcc section[cab-list] input[type="text"], div#listBit section[cab-list] input[type="text"]{
+	visibility: hidden;
+}
+
+aside[cont-pag]{
+	float: right;
+	width: 250px;
+	color: white;
+	margin-left: -100px
+}
+
+aside[cont-pag] input[type="button"]{
+	width: auto;
+	padding: 1px 5px;
+	margin-right: 3px;
+	border-radius: 3px;
+}
+
+section[cab-cont-list]{
+	background: silver;
+	height: 40px;
+	margin: 0px 0px 0px 5px;
+}
+
+section[cab-cont-list]:last-child{
+	margin-bottom: 3px;
+}
+
+aside[usuario],aside[operacion],aside[num],aside[operacion1]{
+	display: inline-block;
+	background: #ecf0f1;
+	padding: 10px 0px;
+	margin: 0px;
+}
+
+aside[num]{
+	text-indent: 3px;
+	width: 6%;
+}
+
+aside[usuario]{
+	width: 60%;
+	text-indent: 10px;
+}
+
+aside[operacion]{
+	text-align: center;
+	width: 30%;
+}
+
+aside[operacion1]{
+	width: 30%;
+	padding: 5.5px 0px 3px 0px;
+	margin-left: 5px;
+}
+
+
+input[type="text"]{
+	padding:8px 0px;
+	font-size: 12px;
+	width:200px;
+	border: 2px solid rgb(189, 195, 199) !important;
+	border-radius: 3px;
+	background:white;
+	color:#6C7A89;
+	text-indent:10px;
+}
+
+input.cerrar{
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	margin-left: 50px !important;  
+}
+input.busc{
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	margin-top:5px;
+	margin-bottom: 5px;   
+}
+
+input.cerrar-sesion,input.desbloquear,input.search{
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	margin: 0px;
+	margin-left: -30px;
+	border: none; 
+}
+input.search{
+	background: url("../imagenes/icon-blancos/search2.png") no-repeat;
+	background-size: 20px 20px;
+	background-position: center;
+}
+
+input.search:hover{
+	background: url("../imagenes/icon-blancos/search2.png") no-repeat;
+	background-size: 20px 20px;
+	background-position: center;
+	cursor: pointer;
+}
+
+input.cerrar-sesion{
+	background: url("../imagenes/icon-blancos/cerrar-sesion.png") no-repeat;
+	background-size: 20px 20px;
+	background-position: center;
+}
+
+input.cerrar-sesion:hover{
+	background: url("../imagenes/icon-blancos/cerrar-sesion.png") no-repeat;
+	background-size: 20px 20px;
+	background-position: center;
+	cursor: pointer;
+}
+
+input.desbloquear{
+	background: url("../imagenes/icon-blancos/key.png") no-repeat;
+	background-size: 20px 20px;
+	background-position: center;
+}
+
+input.desbloquear:hover{
+	background: url("../imagenes/icon-blancos/key.png") no-repeat;
+	background-size: 20px 20px;
+	background-position: center;
+	cursor: pointer;
+}
+
+input.opciones{
+	float: right;
+	width: 30px;
+	height: 30px;
+	padding: 0px;
+	margin: -0px 5px 0px 0px;
+	background: url("../imagenes/icon-blancos/cogs.png") no-repeat;
+	background-size: 20px 20px;
+	background-position: center;
+	z-index: 5;
+}
+
+input.opciones:hover{
+	border: 1px solid silver;
+	cursor: pointer;
+	border-radius: 2px;
+	background: url("../imagenes/icon-blancos/cogs.png") no-repeat;
+	background-size: 20px 20px;
+	background-position: center;
+}
+
+div#cont-opciones,div#cont-opciones-bit{
+	width: 99.7%;
+	height: 0px;
+	transition:all 0.5s;
+	margin-top: -2px;
+	border: 1px solid silver;
+	overflow: hidden;
+}
+
+div#cont-opciones aside, div#cont-opciones-bit aside{
+	float: left;
+	width: 16%;
+}
+
+div#cont-opciones aside input[type="text"],div#cont-opciones-bit aside input[type="text"]{
+	width: 90%;
+}
+
+section[cab-list-acceso],section[cab-list-bitacora]{
+	height: auto;
+	background: rgb(236, 240, 241);
+}
+
+aside[pagAcceso],aside[pagBitacora]{
+	width: 30%;
+	float: right;
+}
+
+aside[pagAcceso] input[type="button"],aside[pagBitacora] input[type="button"]{
+
+	width: auto;
+	padding: 5px;
+	margin-right: 3px;
+	border-radius: 3px;
+	margin-top: 0px;
+}
+
+aside[fecha],aside[hora],aside[ip],aside[user],aside[opera]{
+	float: left;
+	padding: 8px 0px;
+	border-right: 1px solid grey; 
+	background: rgb(236, 240, 241);
+	margin-left: 0px !important;
+	font-size: 10px;
+	min-height: 20px;
+	max-height: 20px;
+	overflow: auto;
+}
+
+section[cab-list-bitacora]{
+	margin-left: 5px;
+	text-indent: 5px;
+}
+aside[fecha],aside[hora]{
+	width: 10%;
+}
+
+aside[ip],aside[user]{
+	width: 12%;
+}
+
+aside[opera]{
+	width: 53.5%;
+	border: none;
+	max-height: 20px;
+}
+
+aside[opera-cab],aside[opera-c]{
+	float: left;
+	width: 53.5%;
+	border: none;
+	max-height: 20px;
+	font-size: 10px;
+	background: rgb(236, 240, 241);
+	padding: 12px 0px;
+	margin-top: -1px;
+}
+
+img[gif]{
+	width: 70px;
+	height: 70px;
+	margin-left: 50%;
+	margin-top: 15%;
+}
+
+aside[opera-c]{
+	margin-top: 1px;
+	overflow: auto;
+	max-height: 12px;
+}
+
+div[id="listBitAcc"],div[id="listBit"]{
+	height: 460px;
+}
+
+@media screen and (max-width: 900px) {
+	div[cont-configuracion] {
+		float: left;
+		width: 100%;
+	}
+
+	div[cont-listados]{
+		float: right;
+		width: 100%;
+	}
+}

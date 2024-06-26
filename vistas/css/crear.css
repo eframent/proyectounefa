@@ -1,0 +1,24 @@
+.crear{
+	transition:all 1s;
+	width: 60px;
+	height: 60px;
+	background-color: #16a085;
+	border-radius:100px;
+	margin:0px auto;
+	background-repeat: no-repeat;
+	background-image: url('../imagenes/iconos/blanco/close.png');
+	background-position: center;
+	transform:rotate(45deg);
+	float:none;
+}
+.girar{
+	transition:all 1s;
+	transform:rotate(720deg);
+	border-radius: 5px;
+}
+.fondo{
+	background-color: white;
+	border:1px solid #16a085;
+	width: 400px;
+	height: 130px;
+}

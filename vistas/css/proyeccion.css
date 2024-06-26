@@ -1,0 +1,475 @@
+fieldset{
+	float: left;
+	color: black;
+	overflow:auto;
+	height: auto;
+}
+div{
+	width: 100%;
+	float: left;
+}
+div input[crear]{
+	float:right;
+	margin-right: 0;
+}
+
+label{
+	cursor: pointer;
+}
+
+h4{
+	width: 100%;
+	background-color: rgb(41, 56, 140);
+	color: white;
+	text-align: center;
+	margin: 0;
+	border-radius: 2px 2px 0 0;
+	padding: 2px 0;
+}
+
+label{
+	float: left;
+	padding: 10px 5px;
+	font-size: 13px;
+}
+
+.contentField{
+	transition:height 1s;
+	background: white;
+	height: 80px;
+	overflow: hidden;
+	box-shadow: none;
+}
+
+.legend{
+	transition:all 1s;
+	width: auto;
+	z-index: 1;
+	position: relative;
+	
+	list-style: none outside none;
+	background-color: rgb(251, 251, 251);
+	background-image: -moz-linear-gradient(center top , rgb(255, 255, 255), rgb(245, 245, 245));
+	background-image: -webkit-linear-gradient(center top , rgb(255, 255, 255), rgb(245, 245, 245));
+	background-repeat: repeat-x;
+	border: 1px solid rgb(221, 221, 221);
+	border-radius: 3px;
+	box-shadow: 0px 0px 10px rgba(189, 189, 189, 0.4);
+	font-size: 25px;
+	padding: 5px 10px;
+	margin-top: 5px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.ultimoLeg{
+	width: 30px;
+	height: 30px;
+	background-image: url('../imagenes/iconos/plus.png');
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 25px 25px;
+}
+
+div[legenda]{
+	background: #1abc9c;
+	padding: 2px 0px;
+	margin-top: 3px;
+	color: white;
+	font-weight: bold;
+	text-indent: 40px;
+}
+
+.fieldset{
+	transition:all 1s;
+	width: 30px;
+	overflow: hidden;
+	height: 40px;
+	margin-left: -40px; 
+	margin-top:5px;
+	border-radius: 5px; -webkit-border-radius: 5px; -ms-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px;;
+	border: 1px solid rgb(222, 222, 222);
+	box-shadow: 0px 0px 10px rgba(189, 189, 189, 0.4);
+	color:black;
+}
+
+.ultimoField{
+	padding: 0px;
+}
+
+article{
+	border: 1px solid silver;
+	float: left;
+	width: 80%;
+	height: auto;
+	margin-right: 10px;
+	color:black;
+	overflow: auto;
+}
+
+article[diurnasa],article[nocturnasa]{
+	width: 200px !important;
+	font-size: 12px !important;
+	border-radius: 5px;
+}
+
+
+/* trancisiones del fieldset*/
+.crecerContenedor{
+	height: 300px;
+}
+.crecerCompleto{
+	height: 550px;	
+}
+.bajarLegend{
+	margin: 75px 0px 20px 30px;
+	float:left;
+	position: absolute;
+}
+.bajarField{
+	margin: 100px 0px 10px 10px;
+	width: 90%;
+	height: 150px;
+	padding:30px 0px 0px 30px;
+	float:left;
+	position: absolute;
+}
+.bajarCompleto{	
+	margin: 100px 0px 10px 10px;
+	width: 90%;
+	height: 400px;
+	padding:30px 0px 0px 30px;
+	float:left;
+	position: absolute;
+}
+.reducir{
+	height: 0px;
+}
+
+/* fin trancisiones del fieldset*/
+.ancho{
+	float: left;
+	background: #e2e2e2;
+	color: #2980b9;
+	cursor: pointer;
+	width: 99%;
+	margin-top:1px;
+	margin-left: 2px;
+}
+
+.ancho:hover{
+	background: silver;
+	color: #1abc9c;
+}
+
+div.K{
+	padding: 10px 0px 10px 10px ;
+	width: 80%;
+	font-size: 20px;
+	color: #1abc9c;
+	margin: 30px auto;
+	box-shadow: none;
+	float: none;
+
+}
+
+.tooltic{
+	width: auto;
+	height: auto;
+	min-width: 200px;
+	background: #e2e2e2;
+	display: none;
+	position: absolute;
+	text-transform: capitalize;
+	margin-top: -90px;
+	margin-left: 120px;
+	border-radius: 3px;
+	font-size: 12px;
+}
+
+fieldset span{
+	width: 300px;
+	margin-top: 1px;
+	margin-right: 5px;
+	border-radius: 3px;
+	padding: 0px 5px;
+	cursor: pointer;
+}
+
+legend{
+	color: #34495e;
+	padding:5px 20px 5px 5px;
+}
+
+.tooltic:before{
+	content: "";
+	margin-top: 80px;
+	position: absolute;
+	margin-left: 10px;
+	border: solid;
+	border-color: #e2e2e2 transparent;
+	border-width: 6px 6px 0px 6px;
+	
+}
+
+.tooltic table{
+	margin: 10px 0;
+}
+
+div[nosequiees]{
+	box-shadow: none !important;
+	border-bottom:1px solid silver; 
+}
+
+.titulo{
+	width: 99.4%;
+	text-align: center;
+	background-color: #34495e;
+	color:white;
+}
+L{
+	color: #16a085;
+	text-shadow: 1px 1px 0px black;
+	padding: 0px 10px;
+}
+T{
+	float:right;
+}
+K{
+	font-size: 38px;
+	text-transform: capitalize;
+	color: #1abc9c;
+	text-shadow: 1px 1px 0px black;
+	text-align: justify;
+}
+input[type='button'].eliminarSec{
+	background: url(../imagenes/iconos/gris/close.png) no-repeat;
+	background-position: right;
+	background-size: 16px 16px;
+	margin-top: -35px;
+	margin-bottom: -5px;
+	margin-right: 3px;
+	float: right;
+	width: auto;
+	color: silver;
+	font-size: 12px;
+	text-align: left;
+	padding-right: 20px;
+}
+
+input[type='button'].ModificarSec{
+	background: url(../imagenes/iconos/gris/selec.png) no-repeat;
+	background-position: right;
+	background-size: 16px 16px;
+	margin-top: -35px;
+	margin-bottom: -5px;
+	margin-right: 85px;
+	float: right;
+	width: auto;
+	color: silver;
+	font-size: 12px;
+	text-align: left;
+	padding-right: 20px;
+}
+
+input[type='button'].eliminarSec:hover{
+	color: red;
+}
+
+input[type='button'].ModificarSec:hover{
+	color: red;
+}
+
+span:hover + .tooltic{
+	display: block;
+}
+
+			#ocul{
+				background: url("../imagenes/opa-icons-blue32.png") no-repeat;
+				background-position: -132px -35px !important;
+				border: 1px solid blue;
+			}
+
+			c{
+				color: #27ae60;
+				font-size: 15px;
+			}
+
+			.sec{
+				width: 120px;
+			}
+
+			.cantsec{
+				width: 300px;
+			}
+
+			div[detCabMat]{
+				background:#4aa3df;
+				box-shadow: none !important;
+				text-align: center;
+				border-radius: none !important;
+			}
+
+			div[detCabMat] aside{
+				font-size: 12px !important;
+				color: white;
+				font-weight: bold;
+			}
+
+			div[detInfoMat]{
+				box-shadow: none !important;
+			}
+
+			aside{
+				height:auto;
+				color:grey;
+				width: 20%;
+				display: inline-block;
+				font-size: 10px;
+				text-align: center;
+			}
+
+			div[contenedorEst]{
+				margin-top: 20px;
+				box-shadow: none !important;
+				max-height: 330px !important;
+				overflow: auto;
+				height: 330px;
+			}
+
+			div[contenedorEst] aside{
+				width: 25% !important;
+			}
+
+			div[contenedorEst] h2{
+				font-size: 14px;
+				background: silver;
+				color: grey;
+				padding: 5px 0px;
+				height: auto;
+				margin: 0px;
+				border-radius: 0px;
+				border:0px;
+				width: auto;
+			}
+
+			input[name='movera']{
+				width: auto !important;
+				padding: 3px 10px !important;
+				height: auto !important;
+				margin: 2px 0px;
+			}			
+/*--------------------------Estilos Ventana Modal Depuracion-----------------------------*/
+div#ventanaModal{
+	transition:all 1s;
+	width: 500px;
+	height: 0px;
+	z-index: 10;
+	position: fixed;
+	background: white;
+	border:1px solid midnightblue;
+	overflow: hidden;
+}
+
+div#capaExterior{
+	width: 110%;
+	height: 110%;
+	background: black;
+	z-index: 9;
+	position: fixed;
+	top: -10px;
+	left: -10px;
+	opacity: 0.4;
+}
+
+/*Cabecera*/
+div[cab]{
+	font-size: 12px;
+	background: #2c3e50;
+	color: white;
+	padding: 5px 0px;
+	height: auto;
+	margin: 0px;
+	border-radius: 0px;
+	border:0px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+div[cab] input[value='X']{
+	float: right;
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+}
+/*Elementos del cuerpo*/
+
+Cuer{
+	height:auto;
+	color:grey;
+	width: 25%;
+	display: inline-block;
+	font-size: 10px;
+	text-align: center;
+	overflow: hidden;
+    border-bottom: 1px solid silver;
+}
+CuerCab {
+    height: auto;
+    color: #FFF;
+    width: 25%;
+    display: inline-block;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #C0C0C0;
+    background-color: #6C7A89;
+    padding: 5px 0px;
+    margin-top: -10px;
+}
+
+aside[mover]{
+	float: right;
+	margin-top: 5px;
+}
+
+aside input{
+	margin-top: -3px !important;
+}
+/****************************************Carga de Notas***************************************/
+div[contenedorEst] aside{
+	height: 25px;
+	border-bottom: 1px solid silver;
+}
+
+div[contenedorEst] aside[input]{
+	margin-top: 5px;
+	float: right;
+}
+
+div[contenedorEst] aside input[type="text"]{
+	width: 40px !important;
+	float: right;
+	margin-right: 10px;
+	padding: 2px !important;
+	text-align: center !important;
+	margin-top: -4px;
+}
+
+div[contenedorEst] aside[botones]{
+	width: 100% !important;
+	height: auto;
+}
+
+input[onclick="guardarTotal(this)"]{
+	float: right;
+	margin-right: 10px;
+}
+
+h2 label[nota]{
+	float: right;
+	padding: 0px;
+	text-indent: 0px !important;
+	margin-right: 25px;
+}
