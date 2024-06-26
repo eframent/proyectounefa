@@ -1,0 +1,341 @@
+	label{
+		font-size: 16px;
+		color: white !important;		
+		}
+
+		div#inspector{
+			border: 1px solid silver;
+			margin: 0px auto;
+			height: auto;
+			width: 100%;
+			margin-bottom: -19px;
+			overflow-x:auto;
+			overflow-y:scroll; 
+			height: 500px;
+		}
+
+		input[value="Mostrar"]{
+			position: fixed;
+			margin-left: 10px;
+		}
+
+		input[value="Asignar"]{
+			float: right;
+			margin-right: 30px;
+		}
+
+		div#inspector table{
+			margin: 10px 200px;
+		}
+
+		div[ordenar]{
+			width: 100%;
+			height: 1px;
+			clear: both;
+		}
+
+		div[Menu] label{
+			font-size: 12px;
+		}
+
+		h1{
+			width: 100%;
+			margin: 0px;
+			background:#027985;
+			color: white;
+			text-indent: 30px;
+			font-size: 16px;
+			font-weight: normal;
+			padding: 8px 0px;
+		}
+
+		h2{
+			background: rgb(41, 56, 140);
+			text-indent: 30px;
+			font-size: 16px;
+			padding: 5px 0px !important;
+			height: 20px;
+			border-bottom: 0px;
+			width: 300px;
+			margin-top: -30px;
+		}
+
+		fieldset{
+			border:none;
+			margin: -0px 20px 0px 3px;
+			border-top:1px solid silver; 
+			border-left:0px; 
+			border-bottom:0px; 
+			border-right:0px; 
+			width:540px; height:auto; margin-left:25px;
+			padding: 0px;
+			border-radius: 0px;
+			box-shadow: none;
+			float: right;
+		}
+
+		legend{
+			font-size: 12px; 
+			margin-left: 0px;
+			margin-top: 5px;
+
+		}
+		fieldset div{
+			width: auto;
+			max-width: 180px;
+			font-size: 10px;
+		}
+
+		fieldset div p{
+			margin-top: 8px;
+		}
+
+		div[organizador]{
+			border: 1px solid silver;
+			float: left;
+			margin: 10px 0px 10px 15px;
+			padding: 5px 10px;
+			border-radius: 3px;
+		}
+
+		div[cont-p],div[cont-e],div[cont-a],div[cont-r]{
+			padding: 5px;
+			border-radius: 100px;
+			width: 15px;
+			text-align: center;
+			color: white;
+			margin-top: -20px;
+			margin-right: -20px;
+			cursor: pointer;
+		}
+		div[cont-p]{background: #1BA39C;}
+		div[cont-e]{background: #F89406;}
+		div[cont-a]{background: #26A65B;}
+		div[cont-r]{background: #CF000F;}
+
+		div[title-p],div[title-e],div[title-a],div[title-r],div[title-pdf],div[title-atender]{
+			position: absolute;
+			background: #1BA39C;
+			margin: 5px 0px 0px 8px;
+			width: 1px;
+			overflow: hidden;
+			transition:all 0.5s;
+			height: 0px;
+			border-radius: 3px 3px 3px 0px;
+			color: white;
+		}
+
+		div[title-p]{background: #1BA39C;}
+		div[title-e]{background: #F89406;}
+		div[title-a]{background: #26A65B;}
+		div[title-r]{background: #CF000F;}
+		div[title-pdf]{background: #6C7A89;}
+		div[title-atender]{background: #6C7A89;}
+
+		div[cont-p]:hover>div[title-p],div[cont-e]:hover>div[title-e],div[cont-a]:hover>div[title-a]{
+			width: 150px;
+			margin: -40px 0px 0px 8px;
+			height: 30px;
+			padding: 3px;
+		}
+
+		div[cont-r]:hover>div[title-r]{
+			width: 150px;
+			margin: -39px 50px 0px -153px;
+			height: 30px;
+			padding: 3px;
+			border-radius: 3px 3px 0px 3px;
+		}
+
+		div[pdf]:hover>div[title-pdf]{
+			width: 150px;
+			margin: -35px 50px 0px -148px;
+			height: 30px;
+			padding: 3px;
+			border-radius: 3px 3px 0px 3px;
+		}
+
+		div[atender]:hover>div[title-atender]{
+			width: 150px;
+			margin: -25px 0px 0px 15px;
+			height: 18px;
+			padding: 3px;
+			border-radius: 3px 3px 3px 0px;
+		}
+
+		a{
+			text-decoration: none;
+		}
+		div[estatus-p],div[estatus-e],div[estatus-a],div[estatus-r]{
+			float: left;
+			margin-right: 5px;
+			margin-top: 8px;
+			text-shadow: 0px 0px 1px rgb(221, 221, 221);
+		}
+
+		div[estatus-p]{	color: #1BA39C;}
+		div[estatus-e]{	color: #F89406;}
+		div[estatus-a]{	color: #26A65B;}
+		div[estatus-r]{	color: #CF000F;}
+
+		div[pendiente], div[en-proceso], div[aprovado], div[rechazado]{
+			width:30px !important;
+			height:30px !important;
+			float: left;
+			text-align:center;
+			border-radius:100px;
+			color:white !important;
+		}
+
+		div[pendiente]{
+			background:#1BA39C;
+		}
+
+		div[en-proceso]{
+			background:#F89406;
+		}
+
+		div[aprovado]{
+			background:#26A65B;
+		}
+
+		div[rechazado]{
+			background:#CF000F;
+		}
+
+		div[formulario]{
+			border: 0px;
+			margin-top: -20px !important;
+			border: 1px medium silver !important;
+			width: 100%; 
+		}
+
+		table{
+			width: 100% !important;
+			margin: 0px auto !important;
+			border-collapse: collapse;
+			margin: 4px;
+			padding: 5px;
+			text-align: left;
+			border:1px medium silver !important;
+		}
+
+		table tr{
+			height: 30px;
+			color: white !important;
+			font-size: 12px;
+			text-align: center;
+			background: #95A5A6;
+			border-bottom: 1px solid silver !important;
+		}
+
+		table tr:hover{
+			background: silver;
+			color: white;
+		}
+
+		table tr.cab{
+			background:rgb(52, 152, 219);
+			height: 35px;
+			text-indent: 5px;
+			color: white;
+		}
+
+		table tr td{
+			padding: 2px 0px;
+			text-align: center;
+		}
+
+
+		td a{
+			color: red !important;
+		}
+
+		span[usuario]{
+			display:none;
+		}
+
+div#legendObligatorio {
+	display: none !important;
+}
+
+div[contenedor]{
+	padding-bottom: 10px !important;
+	min-width: 870px !important;
+}
+
+div[atender]{
+	width: 30px;
+	height: 30px;
+	background: url("../imagenes/atender1.png") no-repeat;
+	background-size: 55px 50px;
+	background-position: center;
+	cursor: pointer;
+}
+
+div[pdf]{
+	width: 30px;
+	height: 30px;
+	background: url("../imagenes/pdf.png") no-repeat;
+	background-size: 35px 35px;
+	background-position: center;
+	cursor: pointer;
+	border-radius: 100px;
+}
+
+div[ordenar]{
+	width: 100%;
+	height: 0px;
+	clear: both;
+}
+
+img[gif]{
+	width: 70px;
+	height: 70px;
+	margin-left: 50%;
+	margin-top: 15%;
+}
+h3{
+	text-align: center;
+	background: none repeat scroll 0% 0% #29388C;
+	color: #FFF;
+	padding: 17px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+div#exterior{
+	background-color:#000; 
+	background-image: url("../imagenes/texturas/simple_dashed.png");
+	position: fixed;
+	opacity: 0.9;
+	z-index: 2;
+}
+div#capaContenido,div#capaContenidoPDF{
+	background: white;
+	width:600px;
+	height: auto;
+	position: absolute;
+	top: 10%;
+	left:20%;
+	margin-bottom: 100px;
+	z-index: 3;
+}
+
+div#capaContenidoPDF{
+	width: 80%;
+	left: 10%;
+	top: 1%;
+}
+
+#frame{
+	height: 1350px;
+	width: 100%;
+	border: none;
+}
+
+aside#pagBloq input[type="button"]{
+	padding: 5px 10px;
+	width: auto;
+	text-indent: 0px;
+	border: 1px solid silver !important; 
+}

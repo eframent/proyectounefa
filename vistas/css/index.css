@@ -1,0 +1,79 @@
+fieldset {
+    border: 1px solid #3498DB;
+    margin: 50px auto;
+    width: 40%;
+    margin-top: 30px;
+    padding: 0px 0px 10px 0px !important;
+    background: white;
+}
+
+
+input.ingresar{
+	text-indent: 0px !important;
+	float: right;
+	padding: 7px 26px !important;
+}
+
+input.ingresar:hover{
+
+}			
+
+input[type="text"],input[type="password"]{
+   	border: 1px solid #3498DB;
+	padding: 10px 0px; 
+	border-radius: 2px;
+	font-size: 12px;
+	width: 90%;
+	color: #2980b9;
+	margin: 0px auto;
+	border-left: 5px solid #3498DB;
+}
+
+input[type="text"],input[type="password"],label,input.ingresar{
+	margin: 5px 10px 5px 10px;
+	text-indent: 10px;
+}
+
+.Error,.Info,.Alerta{
+	background-color:red;
+	color: white;
+	border:1px solid ;
+	margin-left:50%;
+	width: 600px;
+}
+
+h2{
+	text-indent: 0px;
+	text-align: center;
+	font-size: 14px;
+	height: auto;
+	padding: 10px 0px;
+}
+
+label{
+	color: grey;
+}
+
+a{
+	width: 100%;
+	text-decoration: none;
+	color: grey;
+	color:firebrick;margin-left:24px;
+	font-size: 10px; 
+	font-weight: bold;
+	cursor: pointer;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+@media screen and (min-width: 270px) and (max-width: 600px){
+	fieldset{
+		width: 90%;
+	}
+
+	div[Cabecera],div[Contenedor],div[Pie]{
+		min-width: 270px;
+	}
+}

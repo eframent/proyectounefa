@@ -1,0 +1,370 @@
+fieldset{
+	margin: -1px;
+	position: center;
+	color: white;
+	border-radius: 0px !important;
+	height: 30px;
+}
+#uno{
+	width: 40%;
+	height: 500px;
+	border: 1px solid silver; 
+	float:left; 
+	overflow:auto;
+	margin-top: 4px;
+	clear:both;
+}
+
+#dos{
+	width: 40%;
+	height: 500px;
+	border: 1px solid silver; 
+	float:right; 
+	overflow:auto;
+	margin-top: 4px;
+}
+
+#botones{
+	width: 18%;
+	border: 1px solid silver; 
+	float:left; 
+	margin-top:240px; 
+	margin-left: -170px;
+	margin-right: 5px;
+	border-radius: 5px;
+	background-color:rgb(41,56,140);
+}
+input[asig]{
+	margin: 5px;
+	width: auto;
+	color: black;
+}
+
+#ocul{
+	margin-right: 5px;
+	float: right;
+	height: 25px;
+	width: 25px;
+	margin-top: -2px;
+	border-radius: 100px;
+	background: url("../imagenes/bl32.png") no-repeat;
+	background-position: -132px -35px;
+	border:1px solid white;
+	padding: 0;
+}
+
+#ocul:hover{
+	border:1px solid grey;
+	background: url("../imagenes/blg32.png") no-repeat;
+	background-position: -132px -35px;
+	cursor: pointer;
+}
+
+input[ar]{
+	margin: 0px;
+	width: 100%;
+	font-size: 12px;
+	color: white;
+}
+
+div[om]{
+	transition:all 0.5s;
+	height:25px;
+	width:100%;
+	border: 0px;
+	padding-top: 5px;
+	list-style: none outside none;
+	background-color:rgb(41,56,140);
+	color: white;
+	font-weight: bold;
+	box-shadow: none;
+	cursor: pointer;
+	text-indent: 10px;
+
+}
+
+div[legend]{
+	background-color: white;
+	width: 90%;
+	height: auto; 
+	border: 1px solid silver;  
+	overflow:auto; 
+	padding:0px;
+
+}
+
+div[agrupar]{
+	width: 90%; 
+	height: auto; 
+	border: 1px solid silver;
+	overflow: hidden;
+	margin-top: 5px;
+	transition:all 0.5s;
+}
+
+div[agrup]{
+	width: 100%; 
+	height: auto; 
+	margin: 0px;
+	overflow: hidden;
+	border-radius: 5px 5px 0px 0px;
+	box-shadow: none;
+	border: 0px;
+	margin-top: 5px;
+}
+
+input[type=checkbox]
+{
+
+  padding: 10px;
+}
+
+input[type=checkbox]:hover
+{
+ 	box-shadow: 1px 1px 5px  black ;
+}
+
+div[ordenar]{
+	border: 1px solid rgb(222, 222, 222);
+	overflow: hidden;
+	margin:0.5%;
+	width: 48.8%;
+	float: left;
+	background: linear-gradient(to bottom, #7F7DF8  0%, #fff 100%) repeat scroll 0% 0% transparent;
+	transition:all 0.5s;
+}
+
+div[ordenar] li{
+	height: auto;
+	list-style: none;
+	transition:margin 0.3s;
+	padding: 5px 0px 0px 0px;
+	background-color: rgb(251, 251, 251);
+	background-repeat: repeat-x;
+	color: rgb(32, 113, 161);text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.2);
+	text-indent: 40px;
+	border-bottom: 1px solid silver;
+}
+
+div[ordenar] a{
+	text-decoration: none;
+	border-bottom: 1px solid rgb(221, 221, 221);
+}
+
+div[ordenar] li:hover{
+	margin-left: 20px;
+	text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.2);
+}
+.btn {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #110d82;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#ffffff 50%,
+		#d6d6d6);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		color-stop(0.50, #ffffff),
+		to(#d6d6d6));
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 7px;
+	border: 3px solid #141e8f;
+	-moz-box-shadow:
+		0px 1px 3px rgba(0,0,0,0.5),
+		inset 0px 0px 3px rgba(31,153,219,1);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(0,0,0,0.5),
+		inset 0px 0px 3px rgba(31,153,219,1);
+	box-shadow:
+		0px 1px 3px rgba(0,0,0,0.5),
+		inset 0px 0px 3px rgba(31,153,219,1);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.1),
+		0px 1px 0px rgba(255,255,255,1);
+}
+
+.btn:disabled{
+	color: silver;
+}
+fieldset[campo]{
+	height: 40px;
+	padding: 5px;
+}
+
+.icon{
+	margin-top: -3px;
+}
+.icon:hover{
+	border-radius:0px ;
+}
+
+#asignar{
+	background: url('../imagenes/iconos/blanco/asig.png') no-repeat; 
+	background-position:right;
+	background-size: 20px 20px; 
+}
+
+#revocar{
+	background: url('../imagenes/iconos/blanco/revocar.png') no-repeat; 
+	background-position:left;
+	background-size: 20px 20px; 
+}
+#guardar{
+	background: url('../imagenes/iconos/blanco/disk.png') no-repeat; 
+	background-position:right;
+	background-size: 20px 20px; 
+}
+#limpiar{
+	background: url('../imagenes/iconos/blanco/remove.png') no-repeat; 
+	background-position:right;
+	background-size: 20px 20px; 
+}
+
+#anadir{
+	background: url('../imagenes/iconos/blanco/checkmark.png') no-repeat; 
+	background-position:right;
+	background-size: 20px 20px; 
+}
+
+/**************hover*****************************************************/
+
+#asignar:hover{
+	background: url('../imagenes/iconos/gris/asig.png') no-repeat; 
+	background-position:right;
+	background-size: 20px 20px; 
+	font-weight: bold;
+}
+
+#revocar:hover{
+	background: url('../imagenes/iconos/gris/revocar.png') no-repeat; 
+	background-position:left;
+	background-size: 20px 20px; 
+	font-weight: bold;
+}
+#guardar:hover{
+	background: url('../imagenes/iconos/gris/disk.png') no-repeat; 
+	background-position:right;
+	background-size: 20px 20px; 
+	font-weight: bold;
+}
+#limpiar:hover{
+	background: url('../imagenes/iconos/gris/remove.png') no-repeat; 
+	background-position:right;
+	background-size: 20px 20px; 
+	font-weight: bold;
+}
+
+#anadir:hover{
+	background: url('../imagenes/iconos/gris/checkmark.png') no-repeat; 
+	background-position:right;
+	background-size: 20px 20px; 
+	font-weight: bold;
+}
+
+
+.gira:hover{
+	transform: scale(1.3);
+	border:0px;
+	background-position: center;
+}
+.gira{
+	transition:all 0.5s;
+}
+
+div[tipPermiso]{
+	padding: 16px 20px 15px 15px;
+	background: #6C7A89;
+	width: 10px;
+	float: right;
+	margin-right: -70px;
+	margin-top: -5px;
+}
+
+div[infoLeyenda]{
+	background: #6C7A89;
+	width: 10px !important;
+	padding: 10px  14px 10px 11px !important;
+	text-align: center;
+	float: left;
+	margin-left: 2px;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+div[contLeyenda]{
+	position: absolute;
+	border-radius: 3px 3px 3px 0px;
+	padding: 0px;
+	margin-top: -25px;
+	margin-left: 10px;
+	font-size: 11px;
+	transition:all 0.5s;
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+	background: transparent;
+}
+
+div[infoLeyenda]:hover>div[contLeyenda]{
+	margin-top: -65px;
+	width: 100px;
+	height: 20px;
+	background: inherit;
+	padding: 5px;
+	padding-top: 10px;
+}
+
+fieldset:hover>div[contLeyenda]{
+	margin-top: -100px;
+	width: 200px;
+	height: 35px;
+	background: inherit;
+	padding: 5px;
+	padding-top: 10px;
+	margin-left: 100px;
+}
+
+@media screen and (max-width: 990px) {
+	div[ordenar]{
+		width: 48.5%;
+		font-size: 12px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	#botones{
+		width: 17%;
+	}
+
+	div[ordenar]{
+		width: 48.5%;
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 450px) {
+
+	div[ordenar]{
+		width: 99%;
+		font-size: 10px;
+	}
+
+	ul#css3menu1{
+		width:88%;
+	}
+
+	a[title="Hora"]:hover>div{
+		width: 26px !important;
+		height: 15px !important;
+	}
+
+	a[title="Fecha"]:hover>div{
+		width: 58px !important;
+		height: 15px !important;
+	}
+}

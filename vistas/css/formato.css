@@ -1,0 +1,124 @@
+
+#formato{
+
+	border:1px blue;
+	border-radius:10px;
+	margin: 0;
+	padding: 0;	
+	width: 60%;
+}
+
+#nombre{
+	color:blue;
+	border-radius:10px 0px 0px 0px;
+	background-color:#92C5F8;
+	text-align:center;
+	min-width: 380px;
+	height:40px;
+}
+#nombreu{
+	color:blue;
+	border-radius:0px 10px 0px 0px;
+	background-color:#92C5F8;
+	text-align:center;
+	height:40px;
+	width:auto;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+#numero{
+	background-color:#2980b9;
+	text-align:center;
+	color:blue;
+	min-width:40px;
+	
+}
+
+#numero select{
+	width: 100%;
+}
+
+#titulo-aspectos{
+	text-align:center;
+	min-width:400px;
+	height:40px;
+	background:#34495e;
+	color: white
+}
+
+#titulo-aspectos1{
+	text-align:center;
+	height:40px;
+	background:#34495e;
+	color: white
+}
+
+#titulo{
+	text-align:center;
+	height:40px;
+	border-radius:10px 0px 0px 0px;
+	background:#34495e;
+	color: white
+
+}
+#titulo1{
+	text-align:center;
+	height:40px;
+	border-radius:0px 10px 0px 0px;
+	background:#34495e;
+	color: white
+}
+
+
+#aspectos{
+	background:#D7F5FF;
+	padding-left:10px;
+	text-align:left;
+	min-width:200px;
+	max-width:200px;
+	height:50px;
+	
+
+}
+#new{
+	float:left; 
+	clear:boht; 
+	position: static; 
+	margin-left: 450px;
+
+}
+#voladora{
+	position:static;
+	width:auto;
+	height:auto;
+}
+
+#cont{
+	border:1px solid red;
+}
+
+#aspectos:hover{
+	background:#B0BAF9;
+}
+
+#valoracion1{
+	width:auto;
+	height:40px;
+	color:blue;
+	background:#B0BAF9;
+
+}
+#valoracion{
+	width:auto;
+	height:50px;
+	color:blue;
+	background:white;
+}
+
+#valoracion:hover{
+	background:#B0BAF9;
+	
+}

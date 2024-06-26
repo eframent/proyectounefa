@@ -1,0 +1,141 @@
+div[Cabecera]{
+	display: none;
+}
+img#logo{
+	display: block !important;
+}
+
+label#nom_horario{
+	display: block !important;
+	margin-left: 210px !important;
+	margin-top: -23px;
+}
+
+input#imprimir{
+	display: none !important;
+}
+
+div[menu]{
+	display: none;
+}
+
+div[Pie]{
+	display: none;
+}
+div#info{
+	display: none;
+}
+
+div[titulo]{
+	width: 100% !important;
+	margin-top: -80px !important;
+	border-radius: 0px !important;
+	border: transparent !important;
+	font-size: 20px !important;
+	height: auto !important;
+	margin-bottom: 10px !important;
+	text-align: left !important;
+	text-indent: 120px !important;
+	background: transparent !important;
+	position: absolute !important;
+}
+
+input#ocul{
+	display: none !important;
+}
+
+div#contenedorHorario{
+	height: 700px !important;
+}
+
+table#Horario{
+	box-shadow: none !important;
+	margin-top: 20px !important
+}
+
+table#Horario tr td{
+	border: 1px solid silver !important;
+	border-collapse: collapse !important;
+	box-shadow: none !important;
+}
+
+table#Horario tr td div{
+	font-size: 10px !important;
+}
+
+#frameSet{
+	display: none !important;
+}
+
+#legendObligatorio {
+	display: none !important;
+}
+
+table#Horario tr td {
+    width: 120px !important;
+}
+
+div[bloque] div {
+    height: auto !important;
+}
+
+table tr td:first-child {
+	font-size: 10px !important;
+}
+/**********************Docente************************************/
+#legendObligatorio {
+	display: none !important;
+}
+
+div#tituloLeyenda{
+	display: none;
+}
+
+div#legenda{
+	display: none;
+}
+
+div#interno {
+	height: 500px;
+}
+
+label#nom_horario{
+	margin-left: 100px;
+}
+
+/*********************visualizacion de horarios*********************/
+
+div[resultadoBusqueda], div[resultadoBusquedaseccion] {
+	display: none;
+}
+
+div#aula, div#docente, div#seccion{
+	display: none;
+}
+
+fieldset[cont-busqueda] {
+	display: none;
+}
+
+table#Horario div{
+	font-size: 8px !important;
+}
+
+table#Horario tr td {
+	width: 100px !important;
+}
+
+table#Horario{
+	margin: 0px !important;
+}
+
+#resultado {
+	height: 1500px !important;
+}
+
+div[id="contenedorHorario"]{
+	display: block;
+	width: auto !important;
+	margin: 0px;
+	height: 5000px !important;
+}

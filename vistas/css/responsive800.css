@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px) {
+	div[formulario],div[Botonera]{
+		width: 95%;
+	}
+
+
+	div[formulario]{
+		border-radius:5px 5px 0px 0px; 
+	}
+
+	ul#css3menu1 a {
+		width: auto;
+		padding: 5.5px 10px;
+		font-size: 10px;
+	}
+
+}
